@@ -68,7 +68,7 @@ async function main() {
 
 	const validity = crypto.verify(null, signature_data, public_key, stripped_signature);
 
-	console.log(validity);
+	console.log(`The signature was ${validity ? 'valid' : 'invalid'}`);
 }
 
 main();
