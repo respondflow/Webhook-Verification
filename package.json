@@ -1,0 +1,18 @@
+{
+  "name": "webhook-verification",
+  "version": "1.0.0",
+  "description": "Demonstrate verifying the authenticity of webhooks from the Volt Registration system",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/node22": "^22.0.2",
+    "@types/node": "^24.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
